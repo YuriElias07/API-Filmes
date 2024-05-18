@@ -1,0 +1,95 @@
+body{
+    background-image: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cabecalho{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 0px 30px black;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 8%;
+    font-size: 25px;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+}
+
+#menu li{
+    font-size: 23px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: ease-in-out 300ms;
+}
+
+#menu li:hover{
+    transform: scale(1.04);
+    background-color: #cb2f2fad;
+    box-shadow: 0px 0px 4px #EFCC00;
+    color: #EFCC00;
+}
+
+#logo{
+    height: 110px;
+}
+
+#cadastro{
+    display: flex;
+    gap: 50%;
+    color: white;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#sec1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 90vw;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 10;
+    padding-top: 10%;
+}
+
+
+.section{
+    color: white;
+}
+
+.card{
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagem_filme{
+    border-radius: 20px;
+}
+
